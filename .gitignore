@@ -1,0 +1,55 @@
+# Ignore macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Logs and debugging files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# npm package output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Editor settings and configurations
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS generated files #
+*.DS_Store
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Compiled binary
+*.class
+*.pyc
+*.pyo
+*.exe
+*.out
+*.app
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python virtual environments
+venv/
+
